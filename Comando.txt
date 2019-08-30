@@ -1,0 +1,16 @@
+$ history
+    1  cd Desktop/Clase2-Calculadora/
+    2  gif status
+    3  git status
+    4  git add .
+    5  git status
+    6  git commit -m "interface-calc"
+    7  git config --global user.email "facundobravo23@gmail.com"
+    8  git config --global user.name "ffbravo"
+    9  git push origin master
+   10  git  status
+   11  git commit -m "interface-calc"
+   12  git push origin master
+   13  git log
+   14  git log -n 1
+   15  history
