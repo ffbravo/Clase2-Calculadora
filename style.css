@@ -1,0 +1,64 @@
+#titulo {
+    color: #FF0000;  /*red;*/
+}
+#calc {
+  position: relative;
+  width: 188px;
+  height: 247px;
+  margin: 0px auto 0px auto;
+  background-color: #FF0000;
+  /*
+  position: absolute;
+  top: 10px;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;*/
+  }
+#calc-top, #calc-middle, #calc-botton {
+  position: relative;
+  width: 188px;
+  }
+#calc-top {
+  height: 10px;
+  background: url(./img/calc-top.png) no-repeat top center;
+}
+
+#calc-middle {
+  height: 230px;
+  background: url(./img/calc-middle.png) repeat-y ;
+}
+#calc-botton {
+  height: 10px;
+  background: url(./img/calc-bottom.png) no-repeat top center ;
+}
+
+#display {
+  position: relative;
+  width: 141px;
+  height: 40px;
+  padding: 5px;
+  margin: 0 auto;
+  background: url(./img/calc-display.png) no-repeat top center;
+  }
+
+  #bottons {
+    position: relative;
+    width: 152px;
+    margin: 0 auto;
+  }
+
+  #buttons ul li.button {
+    position: relative;
+    width: 34px;
+    height: 22px;
+    padding-top: 5px;
+    margin: 2px;
+    background: url(./img/calc-botton.png) no-repeat 0 0;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "lucida console", Monaco, monospace;
+    list-style-type: none;
+    float: left;
+
+  }
