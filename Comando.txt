@@ -1,16 +1,14 @@
-$ history
-    1  cd Desktop/Clase2-Calculadora/
-    2  gif status
-    3  git status
-    4  git add .
-    5  git status
-    6  git commit -m "interface-calc"
-    7  git config --global user.email "facundobravo23@gmail.com"
-    8  git config --global user.name "ffbravo"
-    9  git push origin master
-   10  git  status
-   11  git commit -m "interface-calc"
-   12  git push origin master
-   13  git log
-   14  git log -n 1
-   15  history
+Config Global
+git config --global user.name "Facundo Bravo"
+git config --global user.email "facundobravo23@gmail.com"
+
+Descargar Todo
+git clone https://github.com/ffbravo/Clase2-Calculadora.git
+
+Descargar Cambios
+git pull
+
+Subir Cambios
+git add .
+git commit -m "Subir Codigo de Calculadora a GitHub Intento 24"
+git push -u origin master
